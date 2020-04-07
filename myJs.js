@@ -17,8 +17,9 @@ function RandomExcuse()
    var whatTheyDid = RandomElemnt(whatTheyDidList);
    var whatToAvoid = RandomElemnt(whatToAvoidList);
    var timeLapse = RandomElemnt(timeLapseList);
-
-   var excuse = whoToBlame + whatTheyDid + whatToAvoid + timeLapse;
+   
+   var excuse = "";
+   excuse = whoToBlame + whatTheyDid + whatToAvoid + timeLapse;
 
    return excuse;
 
