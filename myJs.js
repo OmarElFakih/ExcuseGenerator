@@ -24,3 +24,9 @@ function RandomExcuse()
    return excuse;
 
 }
+
+function test()
+{
+ return "I Work";
+
+}
