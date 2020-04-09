@@ -5,12 +5,10 @@
             Excuse generator
         </title>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script type="text/javascript" src="myJs.js"></script>
+        <script type="text/javascript" src="myJs.js"></script>	
     </head>
     <body>
-        <script>
-            document.getElementById("excuse").innerHTML = test();
-        </script>
+        
         <div class="center">          
             <h1>
                 OMG, you wont belive me but <br>
@@ -18,6 +16,10 @@
             <h1 id="excuse">
                 my dog ate my homework yesterday
             </h1>
-        </div>    
+        </div>   
+        
+        <script>
+            document.getElementById("excuse").innerHTML = RandomExcuse();
+        </script>		
     </body>
 </html>

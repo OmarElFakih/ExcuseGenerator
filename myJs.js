@@ -7,7 +7,7 @@ var timeLapseList = ["yesterday", "this morning", "a week ago", "last night", "a
 
 function RandomElemnt(_anArray)
 {
-   var element = Math.floor(Math.random() * (_anArray.length - 1));
+   var element = Math.floor(Math.random() * (_anArray.length));
    return _anArray[element];
 }
 
@@ -18,15 +18,10 @@ function RandomExcuse()
    var whatToAvoid = RandomElemnt(whatToAvoidList);
    var timeLapse = RandomElemnt(timeLapseList);
    
-   var excuse = "";
+   excuse = "";
    excuse = whoToBlame + whatTheyDid + whatToAvoid + timeLapse;
 
    return excuse;
 
 }
 
-function test()
-{
- return "I Work";
-
-}
